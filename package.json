@@ -1,0 +1,29 @@
+{
+  "name": "photo-sorter",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "expo": "~58.0.21",
+    "expo-image-manipulator": "^58.0.16",
+    "expo-media-library": "^58.0.13",
+    "expo-status-bar": "~58.0.4",
+    "jpeg-js": "^0.4.4",
+    "react": "19.3.0",
+    "react-native": "0.88.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3",
+    "vitest": "^5.0.5"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "private": true
+}
